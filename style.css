@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
+
+body {
+  background-color: rgb(240, 240, 240);
+  color: rgb(130, 130, 130);
+  font-family: 'Fjalla One', sans-serif;
+  font-size: medium;
+  line-height: 0.5cm;
+}
+
+h1 {
+  color: rgb(100, 100, 100);
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  color: rgb(110, 110, 110);
+  font-family: 'Fjalla One', sans-serif;
+}
+
+a {
+  color: coral;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a:hover {
+  color: crimson;
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+.card-white {
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+}
+
+#follow-me {
+  color: white;
+}
+
+.icons {
+  color: white;
+}
+
+.card-coral {
+  background-color: #FB9E76;
+  color: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+}
+
+.list-inline > li {
+  color: white;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
